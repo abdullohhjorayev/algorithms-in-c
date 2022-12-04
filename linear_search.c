@@ -16,4 +16,6 @@ int main() {
     printf("Enter the target number: ");
     scanf("%d", &target);
     printf("%d\n", linear_search(array, length, target));
+
+    return 0;
 }
